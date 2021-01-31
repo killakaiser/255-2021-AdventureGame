@@ -9,8 +9,7 @@ public class Torch : MonoBehaviour
     public GameObject lightSource;
     public bool failSafe = false;
 
-
-    // Update is called once per frame
+      // Update is called once per frame
     void Update()
     {
         if (Input.GetButtonDown("F Key"))

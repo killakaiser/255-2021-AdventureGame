@@ -35,7 +35,17 @@ public class PlayerMovement : MonoBehaviour
             Application.Quit();
         }
 
+        if (Input.GetButtonDown("Fire2"))
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.Confined;
 
+        }
+
+        if (Input.GetButtonDown("B Key"))
+        {
+
+        }
     }
 
     void TurnPlayer()
