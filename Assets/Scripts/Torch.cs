@@ -12,7 +12,7 @@ public class Torch : MonoBehaviour
       // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("F Key"))
+        if (Inventory.main.hasTorch == true && Input.GetButtonDown("F Key"))
         {
             if (isOn == false && failSafe == false)
             {

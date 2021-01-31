@@ -728,7 +728,7 @@ MonoBehaviour:
   pickUpBook: 0
   pickUpTorch: 0
   pickUpPGem: 0
-  pickUpGGem: 0
+  pickUpGGem: 1
   pickUpYGem: 0
   pickUpFlask: 0
   pickUpBag: 0
@@ -19515,7 +19515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickUpKey: 0
   pickUpBook: 0
-  pickUpTorch: 0
+  pickUpTorch: 1
   pickUpPGem: 0
   pickUpGGem: 0
   pickUpYGem: 0
@@ -27714,7 +27714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124d12005fc88d846a135e49c4c51639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickUpKey: 0
+  pickUpKey: 1
   pickUpBook: 0
   pickUpTorch: 0
   pickUpPGem: 0
@@ -27945,7 +27945,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1499047136
 Transform:
   m_ObjectHideFlags: 0
@@ -35123,7 +35123,7 @@ MonoBehaviour:
   pickUpKey: 0
   pickUpBook: 0
   pickUpTorch: 0
-  pickUpPGem: 0
+  pickUpPGem: 1
   pickUpGGem: 0
   pickUpYGem: 0
   pickUpFlask: 0
@@ -37128,6 +37128,31 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5d5caf692e9776344b2d08a9875b6712, type: 3}
   m_PrefabInstance: {fileID: 2077913727}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2086357427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 852af8050abad2746996bb020372d0e0, type: 3}
+  m_PrefabInstance: {fileID: 986960102}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2086357428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086357427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 124d12005fc88d846a135e49c4c51639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickUpKey: 0
+  pickUpBook: 0
+  pickUpTorch: 0
+  pickUpPGem: 0
+  pickUpGGem: 0
+  pickUpYGem: 1
+  pickUpFlask: 0
+  pickUpBag: 0
 --- !u!1 &2089942660
 GameObject:
   m_ObjectHideFlags: 0
